@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>my-family-chart</title>
+    <title>Silsilah Keluarga Abdul Manan</title>
     <script src="https://unpkg.com/d3@6"></script>
     <script type="module" src="https://unpkg.com/family-chart@0.0.0"></script>
     <link rel="stylesheet" href="https://unpkg.com/family-chart@0.0.0/dist/styles/family-chart.css">
@@ -13,10 +13,6 @@
 <body>
     <div id="FamilyChart" class="f3"
         style="width:80%;height:900px;margin:auto;background-color:rgb(33,33,33);color:#fff;"></div>
-    <div id="Details">
-        <h2>Person Details</h2>
-        <div id="person-details">Click on a person in the chart.</div>
-      </div>
     <script type="module">
         fetch('./data.json')
             .then(res => res.json())
