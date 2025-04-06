@@ -34,23 +34,23 @@
                 .setOnHoverPathToMain()
 
 
-            const f3EditTree = f3Chart.editTree()
-                .fixed(true)
-                .setFields(["nama", "alamat", "birthday"])
-                .setEditFirst(false)
+            // const f3EditTree = f3Chart.editTree()
+            //     .fixed(true)
+            //     .setFields(["nama", "alamat", "birthday"])
+            //     .setEditFirst(false)
 
-            f3EditTree.setNoEdit()
+            // f3EditTree.setNoEdit()
 
-            f3Card.setOnCardClick((e, d) => {
-                f3EditTree.open(d)
-                if (f3EditTree.isAddingRelative()) return
-                f3Card.onCardClickDefault(e, d)
-            })
-
-            f3Chart.updateTree({ initial: true })
-            f3EditTree.open(f3Chart.getMainDatum())
+            // f3Card.setOnCardClick((e, d) => {
+            //     f3EditTree.open(d)
+            //     if (f3EditTree.isAddingRelative()) return
+            //     f3Card.onCardClickDefault(e, d)
+            // })
 
             f3Chart.updateTree({ initial: true })
+            // f3EditTree.open(f3Chart.getMainDatum())
+
+            // f3Chart.updateTree({ initial: true })
         }
     </script>
 </body>
