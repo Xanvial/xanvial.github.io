@@ -12,8 +12,7 @@
         ]
       },
       "data": {
-        "first name": "Habib",
-        "last name": "Muanam",
+        "nama": "Habib Muanam",
         "birthday": "16-08-1961",
         "avatar": "",
         "gender": "M"
@@ -23,8 +22,7 @@
       "id": "5a0945cc-6e5e-4d2f-b56d-6687f32f2b4c",
       "data": {
         "gender": "F",
-        "first name": "Khusnul",
-        "last name": "Hotimah",
+        "nama": "Khusnul Hotimah",
         "birthday": "03-03-1965",
         "avatar": ""
       },
@@ -43,8 +41,7 @@
       "id": "1dd35dff-02bb-4da3-8386-d93f56de24e4",
       "data": {
         "gender": "M",
-        "first name": "Alvian Adi",
-        "last name": "Pratama",
+        "nama": "Alvian Adi Pratama",
         "birthday": "30-10-1988",
         "avatar": ""
       },
@@ -63,8 +60,7 @@
       "id": "b13350b0-39df-42a6-b15d-9a86fa0af827",
       "data": {
         "gender": "F",
-        "first name": "Ainun Fitri",
-        "last name": "Habibah",
+        "nama": "Ainun Fitri Habibah",
         "birthday": "11-03-1994",
         "avatar": ""
       },
@@ -77,8 +73,7 @@
       "id": "7ddf775e-f5c0-40c7-abc5-5c4733674bd8",
       "data": {
         "gender": "F",
-        "first name": "Aulia Annisatul",
-        "last name": "Habibah",
+        "nama": "Aulia Annisatul Habibah",
         "birthday": "21-10-2006",
         "avatar": ""
       },
@@ -91,8 +86,7 @@
       "id": "d9f3849a-c3fb-4f4b-8aeb-7257941c397a",
       "data": {
         "gender": "F",
-        "first name": "Endah",
-        "last name": "Purwanti",
+        "nama": "Endah Purwanti",
         "birthday": "08-05-1992",
         "avatar": ""
       },
@@ -109,8 +103,7 @@
       "id": "ea4f9a1c-875b-4305-ad10-a22dfff55d7a",
       "data": {
         "gender": "M",
-        "first name": "Ren Ezaz",
-        "last name": "Alcantara",
+        "nama": "Ren Ezaz Alcantara",
         "birthday": "25-09-2022",
         "avatar": ""
       },
