@@ -34,23 +34,31 @@
                 .setOnHoverPathToMain()
 
 
-            // const f3EditTree = f3Chart.editTree()
-            //     .fixed(true)
-            //     .setFields(["nama", "alamat", "birthday"])
-            //     .setEditFirst(false)
+            const f3EditTree = f3Chart.editTree()
+                .fixed(true)
+                .setFields(["nama", "alamat", "birthday"])
+                .setEditFirst(false)
 
-            // f3EditTree.setNoEdit()
+            // Check if the user is accessing the page on a mobile device
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-            // f3Card.setOnCardClick((e, d) => {
-            //     f3EditTree.open(d)
-            //     if (f3EditTree.isAddingRelative()) return
-            //     f3Card.onCardClickDefault(e, d)
-            // })
+            if (!isMobile) {
+                // User is accessing the page on a desktop device
+                f3EditTree.setNoEdit()
 
-            f3Chart.updateTree({ initial: true })
-            // f3EditTree.open(f3Chart.getMainDatum())
+                f3Card.setOnCardClick((e, d) => {
+                    f3EditTree.open(d)
+                    if (f3EditTree.isAddingRelative()) return
+                    f3Card.onCardClickDefault(e, d)
+                })
 
-            // f3Chart.updateTree({ initial: true })
+                f3Chart.updateTree({ initial: true })
+                f3EditTree.open(f3Chart.getMainDatum())
+
+                f3Chart.updateTree({ initial: true })
+            } else {
+                f3Chart.updateTree({ initial: true })
+            }
         }
     </script>
 </body>
